@@ -18,7 +18,8 @@ void loop() {
 
 void recvWithEndMarker() {
     static byte ndx = 0;
-    char endMarker = '\n';
+    //char endMarker = '\n';
+    char endMarker = '#';
     char rc;
    
     while (Serial.available() > 0 && newData == false) {
