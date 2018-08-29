@@ -1,0 +1,291 @@
+Found ports :COM5
+
+Setup Complete!
+
+Sending AT query..
+AT
+
+OK
+Successful response for AT query..
+
+AT+CGMM
+
+SIMCOM_SIM800L
+
+OK
+Model Number : SIMCOM_SIM800L
+AT+CGMI
+
+SIMCOM_Ltd
+
+OK
+Manufacturer : SIMCOM_Ltd
+Checking registration status...
+
+AT+CREG?
+
++CREG: 0,5
+
+OK
+Device is registered and is roaming.
+
+Checking if device is already connected...
+
+AT+CGACT?
+
++CGACT: 1,0
++CGACT: 2,0
++CGACT: 3,0
+
+OK
+AT+CMEE=1
+
+OK
+Attaching to network...
+AT+CGATT=1
+
+OK
+
+Connecting to PDP profile 1..
+
+AT+CGACT=1,1
+
+OK
+Connection is successful
+AT+CGPADDR=1
+
++CGPADDR: 1,"10.48.19.99"
+
+OK
+IP Address of the connected profile is "10.48.19.99"
+
+AT+CGDCONT?
+
++CGDCONT: 1,"IP","free","10.48.19.99",0,0
++CGDCONT: 2,"IP","","0.0.0.0",0,0
++CGDCONT: 3,"IP","","0.0.0.0",0,0
+
+OK
+Following connection profiles are available,
+
+CID-> 1
+PDP Type->IP
+APN->free
+PDP Address->10.48.19.99
+Data Compression->0
+Header Compression->0
+
+CID-> 2
+PDP Type->IP
+APN->
+PDP Address->0.0.0.0
+Data Compression->0
+Header Compression->0
+
+CID-> 3
+PDP Type->IP
+APN->
+PDP Address->0.0.0.0
+Data Compression->0
+Header Compression->0
+Uploading 5 KB file to http://ipv4.ikoula.testdebit.info/..
+
+Uploading 5 KB file to http://ipv4.ikoula.testdebit.info/..
+
+Downloading http://ipv4.ikoula.testdebit.info/5.iso..
+
+Downloading http://ipv4.ikoula.testdebit.info/5.iso..
+
+Downloading http://ipv4.ikoula.testdebit.info/5.iso..
+
+AT+HTTPPARA="CID",1
+
+OK
+AT+HTTPINIT
+
++CME ERROR: 3
+Error initializing HTTP service.
+
+AT+HTTPPARA="URL","http://pikooli.com/GSM/postgsm.php"
+
+OK
+AT+HTTPACTION = 0 
+
+OK
+
++HTTPACTION: 0,601,0
+ AT+HTTPPARA="URL","http://pikooli.com/GSM/"  
+
+OK
+AT+HTTPACTION = 0   
+
+OK
+
++HTTPACTION: 0,601,0
+AT+SAPBR=3,1,APN,free
+
+OK
+AT+SAPBR=1,1
+
+OK
+AT+CGATT=1
+
+OK
+
+AT+HTTPINIT
+
++CME ERROR: 3
+Error initializing HTTP service.
+
+AT+HTTPTERM
+
+OK
+AT+HTTPINIT
+
+OK
+AT+HTTPINIT
+
++CME ERROR: 3
+Error initializing HTTP service.
+
+AT+HTTPPARA="CID",1
+
+OK
+AT+HTTPPARA="CID",1
+
+OK
+AT+HTTPPARA=URL,http://pikooli.com/GSM/postgsm.php
+
+OK
+AT+HTTPACTION=0
+
+OK
+
++HTTPACTION: 0,200,7
+AT+HTTPTERM
+
+OK
+AT+CGACT?
+
++CGACT: 1,1
++CGACT: 2,0
++CGACT: 3,0
+
+OK
+Device is connected.
+AT+CGPADDR= 1
+
++CGPADDR: 1,"10.48.19.99"
+
+OK
+IP Address of the connected profile is "10.48.19.99"
+
+AT+CGACT?
+
++CGACT: 1,1
++CGACT: 2,0
++CGACT: 3,0
+
+OK
+Device is connected.
+AT+CGACT=0, 1
+
+OK
+Dis-connect is successful
+AT+CGPADDR= 1  
+
++CME ERROR: 604
+AT+CMEE=1  
+
++CME ERROR: 603
+AT+CGACT?  
+
++CGACT: 1,0
++CGACT: 2,0
++CGACT: 3,0
+
+OK
+AT+CMEE=1  
+
++CME ERROR: 603
+AT+CGDCONT?
+
++CGDCONT: 1,"IP","free","0.0.0.0",0,0
++CGDCONT: 2,"IP","","0.0.0.0",0,0
++CGDCONT: 3,"IP","","0.0.0.0",0,0
+
+OK
+Following connection profiles are available,
+
+CID-> 1
+PDP Type->IP
+APN->free
+PDP Address->0.0.0.0
+Data Compression->0
+Header Compression->0
+
+CID-> 2
+PDP Type->IP
+APN->
+PDP Address->0.0.0.0
+Data Compression->0
+Header Compression->0
+
+CID-> 3
+PDP Type->IP
+APN->
+PDP Address->0.0.0.0
+Data Compression->0
+Header Compression->0
+Checking registration status...
+
+AT+CREG?
+
++CREG: 0,5
+
+OK
+Device is registered and is roaming.
+
+Checking if device is already connected...
+
+AT+CGACT?
+
++CGACT: 1,0
++CGACT: 2,0
++CGACT: 3,0
+
+OK
+AT+CMEE=1
+
+OK
+Attaching to network...
+AT+CGATT=1
+
+OK
+
+Connecting...
+
+AT+CGACT=1, 1
+
+OK
+Connection is successful
+AT+CGPADDR= 1
+
++CGPADDR: 1,"100.125.57.156"
+
+OK
+IP Address of the connected profile is "100.125.57.156"
+
+Checking if device is already connected...
+AT+CGACT?
+
++CGACT: 1,1
++CGACT: 2,0
++CGACT: 3,0
+
+OK
+Profile  1 with APN free is already connected
+AT+CGACT=0, 1
+
+OK
+Dis-connect is successful
