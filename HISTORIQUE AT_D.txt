@@ -1,0 +1,156 @@
+Found ports :COM5
+
+Setup Complete!
+
+Sending AT query..
+AT
+
+OK
+Successful response for AT query..
+
+
+SMS Ready
+ÿAT+CGMI
+
+SIMCOM_Ltd
+
+OK
+Manufacturer : SIMCOM_Ltd
+
++CPIN: READY
+
+Call Ready
+
+SMS Ready
+AT+CGDCONT?
+
++CGDCONT: 1,"IP","epc.tmobile.com","0.0.0.0",0,0
++CGDCONT: 2,"IP","","0.0.0.0",0,0
++CGDCONT: 3,"IP","","0.0.0.0",0,0
+
+OK
+Following connection profiles are available,
+
+CID-> 1
+PDP Type->IP
+APN->epc.tmobile.com
+PDP Address->0.0.0.0
+Data Compression->0
+Header Compression->0
+
+CID-> 2
+PDP Type->IP
+APN->
+PDP Address->0.0.0.0
+Data Compression->0
+Header Compression->0
+
+CID-> 3
+PDP Type->IP
+APN->
+PDP Address->0.0.0.0
+Data Compression->0
+Header Compression->0
+AT+CSCA?
+
+ERROR
+
+SMS Ready
+ÿAT+CPAS
+
++CPAS: 2
+
+OK
+Device status is unknown.
+
+SMS Ready
+AT+CCLK?
+
++CCLK: "04/01/01,00:01:36+08"
+
+OK
+Current time is"04/01/01,00:01:36+08"
+AT+CGSN
+
+867273020841008
+
+OK
+AT+CPBR=1,99
+
++CPBR: 1,"0695307298",129,"gro"
+
++CPBR: 2,"0665525870",129,"flore"
+
+OK
+
++CMTI: "SM",1
+AT+CPIN?
+
++CPIN: READY
+
+OK
+SIM is ready
+
++CMTI: "SM",2
+AT+CSMS?
+
++CSMS: 0,1,1,1
+
+OK
+Service-> GSM 27.005 Compatible
+Mobile Terminated SMS -> Supported
+Mobile Originated SMS -> Supported
+Broadcast SMS messages -> Supported
+
++CMTI: "SM",3
+AT+CMGF?
+
++CMGF: 0
+
+OK
+SMS message for is configured for PDU mode
+AT+CSCA?
+
++CSCA: "+33695000695",145
+
+OK
+SMS service center address is +33695000695
+AT+CMGF?
+
++CMGF: 0
+
+OK
+SMS message for is configured for PDU mode
+AT+CSCA?
+
++CSCA: "+33695000695",145
+
+OK
+SMS service center address is +33695000695
+AT+CSMS?
+
++CSMS: 0,1,1,1
+
+OK
+Service-> GSM 27.005 Compatible
+Mobile Terminated SMS -> Supported
+Mobile Originated SMS -> Supported
+Broadcast SMS messages -> Supported
+AT+CSMS?
+
++CSMS: 0,1,1,1
+
+OK
+Service-> GSM 27.005 Compatible
+Mobile Terminated SMS -> Supported
+Mobile Originated SMS -> Supported
+Broadcast SMS messages -> Supported
+AT+CSCA?
+
++CSCA: "+33695000695",145
+
+OK
+SMS service center address is +33695000695
+AT+CSCA="+33695000695"
+
+OK
