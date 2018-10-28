@@ -154,3 +154,580 @@ SMS service center address is +33695000695
 AT+CSCA="+33695000695"
 
 OK
+========================================================================================================
+=======================================================================================================
+Found ports :COM5
+
+COM5  is currently in use. Please close the application that is using this port and connect again.
+Found ports :COM5
+
+Setup Complete!
+
+Sending AT query..
+AT
+
+OK
+Successful response for AT query..
+
+AT+CGMM
+
+SIMCOM_SIM800L
+
+OK
+Model Number : SIMCOM_SIM800L
+
+SMS Ready
+AT+CGMI
+
+SIMCOM_Ltd
+
+OK
+Manufacturer : SIMCOM_Ltd
+AT+CSCA?
+
+ERROR
+ÿAT+CSCA?
+
+ERROR
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
+ERROR
+AT+CSCA?
+
+ERROR
+AT+CSCA?
+
+ERROR
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
+ERROR
+
+Call Ready
+AT+CSCA?
+
+ERROR
+
++CPIN: READY
+
+Call Ready
+AT+CSCA?
+
+ERROR
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
+ERROR
+
+Call Ready
+AT+CSCA?
+
++CSCA: "+33695000695",145
+
+OK
+SMS service center address is +33695000695
+
++CMTI: "SM",13
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
++CMGL: 1,"REC READ","+33695307298","gro","18/10/28,19:13:54+04"
+#6653#
+
++CMGL: 2,"REC READ","+33695307298","gro","18/10/28,19:14:17+04"
+#356#
+
++CMGL: 3,"REC READ","+33695307298","gro","18/10/28,19:14:53+04"
+#3456#
+
++CMGL: 4,"REC READ","+33695307298","gro","18/10/28,19:16:35+04"
+#345#
+
++CMGL: 5,"REC READ","+33695307298","gro","18/10/28,19:17:55+04"
+#5$566#
+
++CMGL: 6,"REC READ","+33695307298","gro","18/10/28,19:18:17+04"
+#345#
+
++CMGL: 7,"REC READ","+33695307298","gro","18/10/28,19:19:12+04"
+#554#
+
++CMGL: 8,"REC READ","+33695307298","gro","18/10/28,19:19:28+04"
+#245#
+
++CMGL: 9,"REC READ","+33695307298","gro","18/10/28,19:20:17+04"
+#4245h #
+
++CMGL: 10,"REC READ","+33695307298","gro","18/10/28,19:20:56+04"
+#345#
+
++CMGL: 11,"REC READ","+33695307298","gro","18/10/28,19:21:11+04"
+#3255#
+
++CMGL: 12,"REC READ","+33695307298","gro","18/10/28,19:22:07+04"
+#355#
+
++CMGL: 13,"REC UNREAD","+33695307298","gro","18/10/28,19:24:38+04"
+#466#
+
+OK
+
++CMTI: "SM",14
+
++CMTI: "SM",15
+AT+CMGD= 1
+
+OK
+SMS Delete successful
+
+AT+CMGL="ALL"
+
++CMGL: 2,"REC READ","+33695307298","gro","18/10/28,19:14:17+04"
+#356#
+
++CMGL: 3,"REC READ","+33695307298","gro","18/10/28,19:14:53+04"
+#3456#
+
++CMGL: 4,"REC READ","+33695307298","gro","18/10/28,19:16:35+04"
+#345#
+
++CMGL: 5,"REC READ","+33695307298","gro","18/10/28,19:17:55+04"
+#5$566#
+
++CMGL: 6,"REC READ","+33695307298","gro","18/10/28,19:18:17+04"
+#345#
+
++CMGL: 7,"REC READ","+33695307298","gro","18/10/28,19:19:12+04"
+#554#
+
++CMGL: 8,"REC READ","+33695307298","gro","18/10/28,19:19:28+04"
+#245#
+
++CMGL: 9,"REC READ","+33695307298","gro","18/10/28,19:20:17+04"
+#4245h #
+
++CMGL: 10,"REC READ","+33695307298","gro","18/10/28,19:20:56+04"
+#345#
+
++CMGL: 11,"REC READ","+33695307298","gro","18/10/28,19:21:11+04"
+#3255#
+
++CMGL: 12,"REC READ","+33695307298","gro","18/10/28,19:22:07+04"
+#355#
+
++CMGL: 13,"REC READ","+33695307298","gro","18/10/28,19:24:38+04"
+#466#
+
++CMGL: 14,"REC UNREAD","+33695307298","gro","18/10/28,19:25:47+04"
+#245#
+
++CMTI: "SM",1
+
++CMGL: 15,"REC UNREAD","+33695307298","gro","18/10/28,19:26:40+04"
+#ledon#
+
+OK
+
++CMTI: "SM",16
+
++CMTI: "SM",17
+
++CMTI: "SM",18
+AT+CMGD= 1  
+
+ERROR
+AT+CMGD= 1  
+
+ERROR
+
+RDY
+
++CFUN: 1
+
++CPIN: READY
+AT+CMGD= 1  
+
+ERROR
+
+Call Ready
+
+SMS Ready
+
++CMTI: "SM",19
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
++CMGL: 1,"REC UNREAD","+33695307298","gro","18/10/28,19:27:13+04"
+#577#
+
++CMGL: 2,"REC READ","+33695307298","gro","18/10/28,19:14:17+04"
+#356#
+
++CMGL: 3,"REC READ","+33695307298","gro","18/10/28,19:14:53+04"
+#3456#
+
++CMGL: 4,"REC READ","+33695307298","gro","18/10/28,19:16:35+04"
+#345#
+
++CMGL: 5,"REC READ","+33695307298","gro","18/10/28,19:17:55+04"
+#5$566#
+
++CMGL: 6,"REC READ","+33695307298","gro","18/10/28,19:18:17+04"
+#345#
+
++CMGL: 7,"REC READ","+33695307298","gro","18/10/28,19:19:12+04"
+#554#
+
++CMGL: 8,"REC READ","+33695307298","gro","18/10/28,19:19:28+04"
+#245#
+
++CMGL: 9,"REC READ","+33695307298","gro","18/10/28,19:20:17+04"
+#4245h #
+
++CMGL: 10,"REC READ","+33695307298","gro","18/10/28,19:20:56+04"
+#345#
+
++CMGL: 11,"REC READ","+33695307298","gro","18/10/28,19:21:11+04"
+#3255#
+
++CMGL: 12,"REC READ","+33695307298","gro","18/10/28,19:22:07+04"
+#355#
+
++CMGL: 13,"REC READ","+33695307298","gro","18/10/28,19:24:38+04"
+#466#
+
++CMGL: 14,"REC READ","+33695307298","gro","18/10/28,19:25:47+04"
+#245#
+
++CMGL: 15,"REC READ","+33695307298","gro","18/10/28,19:26:40+04"
+#ledon#
+
++CMGL: 16,"REC UNREAD","+33695307298","gro","18/10/28,19:28:25+04"
+#667#
+
++CMGL: 17,"REC UNREAD","+33695307298","gro","18/10/28,19:29:15+04"
+#456#
+
++CMGL: 18,"REC UNREAD","+33695307298","gro","18/10/28,19:32:29+04"
+#566#
+
++CMGL: 19,"REC UNREAD","+33695307298","gro","18/10/28,19:42:39+04"
+#45h#
+
+OK
+ÿReading SMS Messages..
+
+AT+CMGL="ALL"
+
+ERROR
+AT+CMGD= 1  
+
+ERROR
+ÿReading SMS Messages..
+
+AT+CMGD= 1,4
+
+ERROR
+AT+CSQ
+
++CSQ: 15,0
+
+OK
+Signal level is -83 dbm. Signal condition is good.The signal strength range is -53 dbm (Excellent) to -109 dbm (Marginal).
+
+
++CTZV: +4
+
+*PSUTTZ: 2018,10,28,19,12,30,"+4",0
+
+DST: 0
+
++CIEV: 10,"20801","Orange F","Orange F", 0, 0
+ÿReading SMS Messages..
+
+AT+CMGL="ALL"
+
+ERROR
+
+Call Ready
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
++CMGL: 1,"REC READ","+33695307298","gro","18/10/28,19:27:13+04"
+#577#
+
++CMGL: 2,"REC READ","+33695307298","gro","18/10/28,19:14:17+04"
+#356#
+
++CMGL: 3,"REC READ","+33695307298","gro","18/10/28,19:14:53+04"
+#3456#
+
++CMGL: 4,"REC READ","+33695307298","gro","18/10/28,19:16:35+04"
+#345#
+
++CMGL: 5,"REC READ","+33695307298","gro","18/10/28,19:17:55+04"
+#5$566#
+
++CMGL: 6,"REC READ","+33695307298","gro","18/10/28,19:18:17+04"
+#345#
+
++CMGL: 7,"REC READ","+33695307298","gro","18/10/28,19:19:12+04"
+#554#
+
++CMGL: 8,"REC READ","+33695307298","gro","18/10/28,19:19:28+04"
+#245#
+
++CMGL: 9,"REC READ","+33695307298","gro","18/10/28,19:20:17+04"
+#4245h #
+
++CMGL: 10,"REC READ","+33695307298","gro","18/10/28,19:20:56+04"
+#345#
+
++CMGL: 11,"REC READ","+33695307298","gro","18/10/28,19:21:11+04"
+#3255#
+
++CMGL: 12,"REC READ","+33695307298","gro","18/10/28,19:22:07+04"
+#355#
+
++CMGL: 13,"REC READ","+33695307298","gro","18/10/28,19:24:38+04"
+#466#
+
++CMGL: 14,"REC READ","+33695307298","gro","18/10/28,19:25:47+04"
+#245#
+
++CMGL: 15,"REC READ","+33695307298","gro","18/10/28,19:26:40+04"
+#ledon#
+
++CMGL: 16,"REC READ","+33695307298","gro","18/10/28,19:28:25+04"
+#667#
+
++CMGL: 17,"REC READ","+33695307298","gro","18/10/28,19:29:15+04"
+#456#
+
++CMGL: 18,"REC READ","+33695307298","gro","18/10/28,19:32:29+04"
+#566#
+
++CMGL: 19,"REC READ","+33695307298","gro","18/10/28,19:42:39+04"
+#45h#
+
+OK
+AT+CMGD= 1,4
+
+OK
+SMS Delete successful
+
+AT+CMGL="ALL"
+
+OK
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
+OK
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
+OK
+AT+CMGD= 1
+
+OK
+SMS Delete successful
+
+AT+CMGL="ALL"
+
+OK
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
+OK
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
+OK
+Disconnecting port COM5.
+
+Setup Complete!
+
+Sending AT query..
+AT
+
+OK
+Successful response for AT query..
+
+AT+CGMM
+
+SIMCOM_SIM800L
+
+OK
+Model Number : SIMCOM_SIM800L
+AT+CGMI
+
+SIMCOM_Ltd
+
+OK
+Manufacturer : SIMCOM_Ltd
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
+OK
+AT+CMGD= 4,4
+
+OK
+SMS Delete successful
+
+AT+CMGL="ALL"
+
+OK
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
+OK
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
+OK
+AT+CMGD= 1
+
+OK
+SMS Delete successful
+
+AT+CMGL="ALL"
+
+OK
+
++CMTI: "SM",1
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
++CMGL: 1,"REC UNREAD","+33695307298","gro","18/10/28,20:16:12+04"
+#4444#
+
+OK
+AT+CMGD= 4,4
+
+OK
+SMS Delete successful
+
+AT+CMGL="ALL"
+
+OK
+
++CMTI: "SM",1
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
++CMGL: 1,"REC UNREAD","+33695307298","gro","18/10/28,20:16:56+04"
+#456#
+
+OK
+AT+CMGD= 1,4
+
+OK
+SMS Delete successful
+
+AT+CMGL="ALL"
+
+OK
+
++CMTI: "SM",1
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
++CMGL: 1,"REC UNREAD","+33695307298","gro","18/10/28,20:17:29+04"
+#456#
+
+OK
+
++CMTI: "SM",2
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
++CMGL: 1,"REC READ","+33695307298","gro","18/10/28,20:17:29+04"
+#456#
+
++CMGL: 2,"REC UNREAD","+33695307298","gro","18/10/28,20:17:56+04"
+#5556#
+
+OK
+AT+CMGD= 4,4
+
+OK
+SMS Delete successful
+
+AT+CMGL="ALL"
+
+OK
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
+OK
+
++CMTI: "SM",1
+Reading SMS Messages..
+
+AT+CMGL="ALL"
+
++CMGL: 1,"REC UNREAD","+33695307298","gro","18/10/28,20:18:32+04"
+#4667#
+
+OK
+Checking registration status...
+
+AT+CREG?
+
++CREG: 0,5
+
+OK
+Device is registered and is roaming.
+
+Checking SMS Mode...
+
+AT+CMGF?
+
++CMGF: 1
+
+OK
+SMS message for is configured for Text mode
+Device is configured for Text mode for SMS.
+
+Encoding set for 7-bit
+AT+CSMP=17,167,2,0
+
+OK
+Setting Character Set to GSM
+AT+CSCS="GSM"
+
+OK
+AT+CMGS="0695307298"
+
+> Type message in English only..
+> 
++CMGS: 116
+
+OK
+AT+CMGD= 1
+
+OK
+SMS Delete successful
+
+AT+CMGL="ALL"
+
+OK
